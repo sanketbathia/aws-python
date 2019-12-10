@@ -50,8 +50,8 @@ def my_function():
       result.append("Success")
   # Final result of URL status is added
   data['Status'] = result
-  # Create a new CSV file
 
+  # Create a new CSV file
   data.to_csv(dest_path + dest_filename)
 
 my_function()
